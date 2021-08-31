@@ -1,3 +1,50 @@
-.red {
-    color: red;
+body {
+	background-color: #FFF3D4;
+	font-family: 'Spartan', sans-serif;
 }
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	border-radius: 5px;
+}
+
+.subcontainer {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 2.5em;
+}
+
+.btn-primary {
+	background-color: #C4C4C4;
+	color: black;
+	border: 1px solid black;
+}
+
+#map {
+	height: 300px;
+	width: 300px;
+	border: 2px solid black;
+}
+
+#trafficText {
+	max-width: 50%;
+}
+
+.alert-danger {
+	background-color: rgb(252, 182, 182);
+	color: rgb(147, 0, 0);
+	border: 2px solid rgb(147, 0, 0);
+}
+
